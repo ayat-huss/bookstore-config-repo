@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+jwt:
+  secret: your-very-secure-secret-key
+  expirationMs: 3600000
