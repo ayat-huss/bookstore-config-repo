@@ -2,5 +2,10 @@ server:
   port: 8081
 
 jwt:
-  secret: your-very-secure-secret-key
+  secret: your-very-secure-secret-key-which-must-be-32-bytes-min
   expirationMs: 3600000
+
+ 
+
+
+

@@ -6,3 +6,10 @@ spring:
     gateway:
       default-filters:
         - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+
+jwt:
+  secret: your-very-secure-secret-key-which-must-be-32-bytes-min
+  expirationMs: 3600000
+
+ 
+
